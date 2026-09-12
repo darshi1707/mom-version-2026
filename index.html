@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My Wonderful Mother</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Password Page -->
+  <main id="passwordPage" class="password-page">
+    <div class="flower flower-one">✿</div>
+    <div class="flower flower-two">✿</div>
+
+    <section class="welcome-card">
+      <div class="small-label">A little birthday surprise</div>
+
+      <div class="heart">♡</div>
+
+      <h1>For My<br>Wonderful Mother</h1>
+
+      <p class="intro-text">
+        A small collection of memories, love,<br>
+        and moments that mean everything to me.
+      </p>
+
+      <form id="passwordForm">
+        <label for="password">Enter the password to begin</label>
+
+        <div class="password-input">
+          <input
+            type="password"
+            id="password"
+            placeholder="Your secret password"
+            autocomplete="off"
+          >
+          <button type="submit">Open</button>
+        </div>
+
+        <p id="errorMessage" class="error-message">
+          That password is not quite right.
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <!-- Memories Page -->
+  <main id="memoriesPage" class="memories-page hidden">
+
+    <header class="site-header">
+      <div>
+        <p class="small-label">Happy Birthday</p>
+        <h2>To My Dearest Mother</h2>
+      </div>
+
+      <div class="header-heart">♡</div>
+    </header>
+
+    <section class="hero-section">
+      <div class="hero-content">
+        <p class="eyebrow">A letter from your daughter</p>
+
+        <h1>
+          Thank you for being<br>
+          my safest place.
+        </h1>
+
+        <p>
+          You have filled my life with kindness, patience, laughter,
+          and love. These are only a few of the memories I carry
+          with me every day.
+        </p>
+
+        <a href="#memories" class="scroll-link">Scroll down to remember with me ↓</a>
+      </div>
+
+      <div class="hero-image image-placeholder">
+        <!-- Replace this placeholder with your main photo -->
+        <!-- Example:
+        <img src="images/mother-daughter-main.jpg" alt="Me and my mother">
+        -->
+        <span>Your favourite photo<br>goes here</span>
+      </div>
+    </section>
+
+    <section id="memories" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Little pieces of our story</p>
+        <h2>Our Memories</h2>
+        <p>
+          Add as many memories as you want. You can duplicate a memory card
+          to include more photos and stories.
+        </p>
+      </div>
+
+      <div class="memory-list">
+
+        <!-- Memory 1 -->
+        <article class="memory-card">
+          <div class="memory-photo image-placeholder">
+            <!-- Replace with a photo -->
+            <span>Photo 1</span>
+          </div>
+
+          <div class="memory-text">
+            <p class="memory-number">01</p>
+            <h3>One of my favourite days</h3>
+            <p>
+              Write your memory here. Tell your mother about a special day,
+              a holiday, a funny moment, or something small that you will
+              always remember.
+            </p>
+          </div>
+        </article>
+
+        <!-- Memory 2 -->
+        <article class="memory-card reverse">
+          <div class="memory-photo image-placeholder">
+            <!-- Replace with a photo -->
+            <span>Photo 2</span>
+          </div>
+
+          <div class="memory-text">
+            <p class="memory-number">02</p>
+            <h3>Thank you for always being there</h3>
+            <p>
+              Write another personal message here. This could be about the
+              advice she gave you, the way she supported you, or a memory
+              that makes you smile.
+            </p>
+          </div>
+        </article>
+
+        <!-- Memory 3 -->
+        <article class="memory-card">
+          <div class="memory-photo image-placeholder">
+            <!-- Replace with a photo -->
+            <span>Photo 3</span>
+          </div>
+
+          <div class="memory-text">
+            <p class="memory-number">03</p>
+            <h3>The moments I treasure</h3>
+            <p>
+              Add another memory here. There is no need to keep these messages
+              long. A few honest sentences are enough.
+            </p>
+          </div>
+        </article>
+
+        <!-- Memory 4 -->
+        <article class="memory-card reverse">
+          <div class="memory-photo image-placeholder">
+            <!-- Replace with a photo -->
+            <span>Photo 4</span>
+          </div>
+
+          <div class="memory-text">
+            <p class="memory-number">04</p>
+            <h3>My forever role model</h3>
+            <p>
+              Write something about what you admire most about your mother
+              and how she has shaped the person you are today.
+            </p>
+          </div>
+        </article>
+
+        <!-- Duplicate this article whenever you need another memory -->
+        <article class="memory-card">
+          <div class="memory-photo image-placeholder">
+            <!-- Replace with a photo -->
+            <span>Photo 5</span>
+          </div>
+
+          <div class="memory-text">
+            <p class="memory-number">05</p>
+            <h3>A memory I never want to forget</h3>
+            <p>
+              Add another memory here. You can have more or fewer memories
+              by adding or removing these article blocks.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="gallery-section section">
+      <div class="section-heading">
+        <p class="eyebrow">Captured moments</p>
+        <h2>Our Photo Gallery</h2>
+        <p>
+          Replace the boxes below with your favourite photos.
+          You can add as many gallery items as you like.
+        </p>
+      </div>
+
+      <div class="photo-gallery">
+
+        <!-- Gallery photo 1 -->
+        <div class="gallery-photo image-placeholder tall">
+          <!-- Example:
+          <img src="images/photo-1.jpg" alt="Memory description">
+          -->
+          <span>Gallery photo 1</span>
+        </div>
+
+        <!-- Gallery photo 2 -->
+        <div class="gallery-photo image-placeholder">
+          <span>Gallery photo 2</span>
+        </div>
+
+        <!-- Gallery photo 3 -->
+        <div class="gallery-photo image-placeholder wide">
+          <span>Gallery photo 3</span>
+        </div>
+
+        <!-- Gallery photo 4 -->
+        <div class="gallery-photo image-placeholder">
+          <span>Gallery photo 4</span>
+        </div>
+
+        <!-- Gallery photo 5 -->
+        <div class="gallery-photo image-placeholder tall">
+          <span>Gallery photo 5</span>
+        </div>
+
+        <!-- Gallery photo 6 -->
+        <div class="gallery-photo image-placeholder">
+          <span>Gallery photo 6</span>
+        </div>
+
+        <!-- Add more gallery-photo blocks here if needed -->
+
+      </div>
+    </section>
+
+    <section class="wish-section section">
+      <div class="wish-card">
+        <p class="eyebrow">A birthday wish for you</p>
+
+        <h2>Happy Birthday, Mum</h2>
+
+        <p class="birthday-message">
+          Write your main birthday message here. Tell your mother how much
+          you love her, how grateful you are for everything she has done,
+          and what you wish for her in the coming year.
+        </p>
+
+        <div class="signature">
+          With all my love,<br>
+          <strong>Your daughter</strong>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-heart">♡</div>
+      <p>Made with love, just for you.</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
