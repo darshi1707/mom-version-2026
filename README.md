@@ -1,14 +1,16 @@
-# 💗 For My Wonderful Mother
+# 💗 Mom Version 2026
 
 > A small digital collection of memories, photographs, love, and heartfelt wishes — created especially for my mother on her birthday.
 
 ## 🌸 About the Project
 
-**For My Wonderful Mother** is a personal birthday website designed as a digital memory book.
+**Mom Version 2026** is a personal birthday website created as a digital memory book for my mother.
 
-Instead of giving a traditional birthday card, this project turns precious photographs and memories into an interactive webpage. The website begins with a private password screen and then opens into a collection of letters, memories, photographs, and a birthday message.
+Instead of a traditional birthday card, this project brings together personal photographs, memories, messages, and a birthday wish in one interactive website.
 
-Every section is designed to feel warm, simple, elegant, and personal.
+The website begins with a private welcome screen and opens into a collection of memories and photographs, followed by a final birthday message.
+
+Every part of the website is designed to feel warm, personal, simple, and elegant.
 
 ---
 
@@ -16,68 +18,59 @@ Every section is designed to feel warm, simple, elegant, and personal.
 
 * 🔐 **Password-Protected Welcome Page**
 
-  * A simple password screen before entering the memories.
+  * A password is required before entering the main website.
   * Displays an error message when an incorrect password is entered.
 
 * 💌 **Personal Birthday Letter**
 
-  * A dedicated hero section with a heartfelt message.
-  * Introduces the purpose of the website.
+  * A dedicated introduction expressing love and gratitude.
+  * Designed as a personal letter from daughter to mother.
 
 * 📸 **Memory Collection**
 
-  * Individual memory cards with photographs and personal stories.
-  * Alternating left/right layouts for a more dynamic appearance.
-  * Easily expandable with additional memories.
-
-* 🖼️ **Photo Gallery**
-
-  * Dedicated gallery section for favourite photographs.
-  * Supports different photo sizes including tall and wide images.
+  * Multiple memory sections containing photographs and personal messages.
+  * Photos and text alternate between left and right sides.
+  * The layout can easily be extended with more memories.
 
 * 🎂 **Birthday Wish**
 
-  * A dedicated section for the main birthday message.
+  * A dedicated final section for the main birthday message.
   * Includes a personal signature.
 
 * 📱 **Responsive Design**
 
-  * Works across desktop, tablet, and mobile screen sizes.
-  * Memory cards automatically adapt to smaller screens.
+  * Designed to work on desktop, laptop, tablet, and mobile screens.
+  * Memory sections automatically adapt to smaller screens.
 
-* 🌷 **Elegant Visual Design**
+* 🌷 **Soft & Elegant Design**
 
-  * Soft cream, pink, rose, and brown colour palette.
-  * Decorative elements and typography designed for a warm birthday aesthetic.
+  * Warm cream, pink, rose, and brown colour palette.
+  * Decorative elements and typography give the website a personal memory-book feel.
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Technology       | Purpose                                            |
-| ---------------- | -------------------------------------------------- |
-| **HTML5**        | Website structure and content                      |
-| **CSS3**         | Styling, layout, animations, and responsive design |
-| **JavaScript**   | Password functionality and page interaction        |
-| **Google Fonts** | DM Serif Display and Quicksand typography          |
+| Technology       | Purpose                                          |
+| ---------------- | ------------------------------------------------ |
+| **HTML5**        | Website structure and content                    |
+| **CSS3**         | Styling, layouts, colours, and responsive design |
+| **JavaScript**   | Password functionality and page interaction      |
+| **Google Fonts** | DM Serif Display and Quicksand                   |
 
 ---
 
 ## 📁 Project Structure
 
 ```text
-For-My-Wonderful-Mother/
+mom-version-2026/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 │
 ├── images/
-│   ├── photo1.jpeg
-│   ├── photo2.jpeg
-│   ├── photo3.jpeg
-│   ├── ...
-│   └── photo29.jpeg
+│   └── [personal photos - not included in GitHub]
 │
 └── README.md
 ```
@@ -85,40 +78,53 @@ For-My-Wonderful-Mother/
 ### File Description
 
 **`index.html`**
-Contains the complete structure of the website, including the welcome page, memories, photo gallery, and birthday message.
+Contains the structure of the website, including the welcome screen, memory sections, and final birthday message.
 
 **`style.css`**
-Contains the complete visual design, layouts, colours, typography, responsive styling, and memory-card layouts.
+Contains the visual design, colours, typography, layouts, responsive styling, and memory-card positioning.
 
 **`script.js`**
 Handles the password functionality and switching between the welcome page and the memories page.
 
 **`images/`**
-Contains the photographs displayed throughout the website.
+Contains the personal photographs used by the website.
+
+> 🔒 The photographs are personal and have intentionally **not been uploaded to the GitHub repository**.
 
 ---
 
-## 🚀 How to Run
+## 🚀 Running the Project
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/For-My-Wonderful-Mother.git
+git clone https://github.com/YOUR-USERNAME/mom-version-2026.git
 ```
 
 ### 2. Open the project
 
-Open the project folder in **VS Code** or another code editor.
+Open the project folder in **VS Code**.
 
-### 3. Check the images
+### 3. Add the personal images
 
-Make sure all photographs are inside:
+Because the photographs are not stored in the GitHub repository, the website expects them locally inside:
 
 ```text
 images/
 ```
 
-and that their filenames match the paths used in `index.html`.
+For example:
+
+```text
+images/
+├── photo1.jpeg
+├── photo2.jpeg
+├── photo3.jpeg
+├── ...
+└── photo29.jpeg
+```
+
+The filenames must match the filenames referenced in `index.html`.
 
 For example:
 
@@ -128,41 +134,39 @@ For example:
 
 ### 4. Run the website
 
-You can simply open `index.html` in your browser.
+The easiest option is to use the **Live Server** extension in VS Code.
 
-Alternatively, if you use VS Code, you can run the project using the **Live Server** extension.
+Alternatively, open `index.html` directly in a browser.
 
 ---
 
-## 🔑 Changing the Password
+## 🔑 Password
 
-The password can be changed inside `script.js`.
+The website starts with a password screen before displaying the memories.
 
-Find the password value in the JavaScript file and replace it with your preferred password.
+The password is configured inside:
+
+```text
+script.js
+```
+
+For example:
 
 ```javascript
 const correctPassword = "YOUR_PASSWORD";
 ```
 
-> **Note:** This is a front-end password and is intended for a personal surprise website, not for protecting sensitive information.
+Replace it with your desired password.
+
+> **Important:** This is a front-end password intended for a personal surprise website. It is not a security system for protecting sensitive information.
 
 ---
 
-## 📸 Adding More Memories
+## 📸 Adding Memories
 
-Adding another memory is simple.
+New memories can be added by duplicating an existing memory card inside `index.html`.
 
-Copy an existing memory card:
-
-```html
-<article class="memory-card">
-    ...
-</article>
-```
-
-and change the image and text.
-
-For example:
+A memory follows this structure:
 
 ```html
 <article class="memory-card">
@@ -175,25 +179,25 @@ For example:
     <p class="memory-number">29</p>
     <h3>Another beautiful memory</h3>
     <p>
-      Write your personal message here.
+      Write your personal memory here.
     </p>
   </div>
 </article>
 ```
 
-For alternating layouts, use:
+For the alternating layout, add the `reverse` class:
 
 ```html
 <article class="memory-card reverse">
 ```
 
-This automatically moves the photograph to the opposite side.
+This automatically places the photograph on the opposite side.
 
 ---
 
 ## 🎨 Design
 
-The website uses a soft and warm colour palette:
+The website uses a warm and soft colour palette:
 
 * 🌸 Soft Pink
 * 🤍 Cream
@@ -203,54 +207,72 @@ The website uses a soft and warm colour palette:
 
 The typography combines:
 
-* **DM Serif Display** — headings
-* **Quicksand** — body text
+**DM Serif Display**
+Used for large headings and titles.
 
-This combination gives the website a personal letter / memory-book feeling.
+**Quicksand**
+Used for body text, labels, buttons, and smaller content.
+
+Together, they create a soft handwritten-letter / memory-book atmosphere.
 
 ---
 
-## 📱 Responsive Layout
+## 📱 Responsive Design
 
-The website is designed to work on:
+The website is designed for:
 
 * 💻 Desktop
 * 💻 Laptop
-* 📱 Mobile
 * 📱 Tablet
+* 📱 Mobile
 
-On smaller screens, the two-column memory layouts automatically become a single-column layout so that photographs and messages remain easy to read.
+On smaller screens, the memory cards automatically switch from a two-column layout to a single-column layout.
+
+The alternating desktop layout therefore remains easy to read on mobile devices as well.
 
 ---
 
-## 💡 Inspiration
+## 🔒 Privacy
 
-The idea behind this project is simple:
+This project contains personal photographs and memories.
 
-> Some memories are too special to fit inside a normal birthday card.
+For privacy reasons:
 
-This website was created to bring together photographs, memories, and words in one place — something that can be revisited long after the birthday is over.
+* Personal photographs are **not uploaded to GitHub**.
+* The `images/` folder is kept locally.
+* Personal messages can be customized before sharing the project.
+* The repository contains the website structure and styling, but not the private photographs.
+
+If the project is deployed publicly, the images will need to be hosted somewhere accessible to the website.
+
+---
+
+## 💭 The Idea Behind It
+
+A normal birthday card lasts for a moment.
+
+A memory can last forever.
+
+**Mom Version 2026** was created to turn a collection of photographs and memories into something that can be opened, explored, and revisited.
+
+It is a small digital way of saying something much bigger:
+
+> Thank you for being my safest place.
 
 ---
 
 ## ❤️ A Personal Note
 
-This isn't just a website.
+This project isn't just a website.
 
-It is a collection of moments, photographs, and words dedicated to someone who has been there through every chapter of my life.
+It is a collection of moments, photographs, memories, and words dedicated to someone who has been there through every chapter of my life.
 
 **Happy Birthday, Mum. ❤️**
 
 ---
 
-## 📄 License
+## ⭐ Made With Love
 
-This project is a personal project created for a birthday gift.
+**Made with HTML, CSS, JavaScript, memories, and a lot of love.**
 
-The source code may be viewed for learning and inspiration, but the photographs and personal content are private and should not be reused without permission.
-
----
-
-### ⭐ Made with love
-
-**Made with HTML, CSS, JavaScript, memories, and a lot of love. ❤️**
+### Mom Version 2026 · 2026
