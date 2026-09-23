@@ -1,4 +1,4 @@
-const correctPassword = "mothersday";
+const correctPassword = "1510";
 
 const passwordPage = document.getElementById("passwordPage");
 const memoriesPage = document.getElementById("memoriesPage");
