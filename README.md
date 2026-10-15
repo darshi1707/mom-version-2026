@@ -153,7 +153,7 @@ script.js
 For example:
 
 ```javascript
-const correctPassword = "YOUR_PASSWORD";
+const correctPassword = "1510";
 ```
 
 Replace it with your desired password.
